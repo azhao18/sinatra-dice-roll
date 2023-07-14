@@ -31,3 +31,9 @@ get("/dice/2/6") do
   "<h1>2d6</h1>
    <p>#{outcome}</p>"
 end
+
+# /dice.rb
+	
+get("/elephant") do
+  erb(:elephant)
+end
